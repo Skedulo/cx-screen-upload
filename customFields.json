@@ -183,38 +183,5 @@
           "displayOrder": 6
         }
       ]
-    },
-    "Jobs": {
-      "name": "Jobs",
-      "label": "Jobs",
-      "mapping": "sked__Job__c",
-      "isStandard": true,
-      "fields": [
-        {
-          "id": "45ae5cc0-3bd7-4411-a914-842361191e14",
-          "name": "RelatedJob",
-          "schemaName": "Jobs",
-          "label": "Related Job",
-          "description": null,
-          "fieldType": "reference",
-          "mapping": "sked_SMS_Response_Logs__r",
-          "referenceSchemaName": "SMSResponseLog",
-          "referenceSchemaFieldName": "RelatedJobId",
-          "required": false,
-          "upsertKey": false,
-          "accessMode": "read_write",
-          "readOnly": false,
-          "maxLength": 18,
-          "precision": 0,
-          "scale": 0,
-          "isAlert": false,
-          "showIf": null,
-          "showDesktop": false,
-          "showMobile": false,
-          "editableOnMobile": false,
-          "requiredOnMobile": false,
-          "displayOrder": 4
-        }
-      ]
     }
   }
